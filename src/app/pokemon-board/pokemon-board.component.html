@@ -1,0 +1,10 @@
+
+<div class="container-fluid d-flex p-2 m-2 border justify-content-center flex-wrap">
+<div *ngFor="let card of cards" class="card  p-2 m-2 text-center" style="width: 300px;">
+    <img src="{{card.imageUrl}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{card.name}}</h5>
+      <a href="#" class="btn btn-primary">Set : {{card.set}}</a>
+    </div>
+  </div>
+</div>
